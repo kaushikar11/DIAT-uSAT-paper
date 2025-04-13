@@ -1,0 +1,36 @@
+{
+    "accuracy": 97.94661190965093,
+    "inference_time": 4.292851448059082,
+    "avg_time_per_sample_ms": 8.814890037082305,
+    "class_accuracies": {
+        "3_long_blade_rotor": 100.0,
+        "3_short_blade_rotor_1": 95.0,
+        "3_short_blade_rotor_2": 92.5,
+        "Bird": 100.0,
+        "Bird+mini-helicopter_1": 95.23809523809524,
+        "Bird+mini-helicopter_2": 95.0,
+        "RC plane_1": 100.0,
+        "RC plane_2": 100.0,
+        "drone_1": 100.0,
+        "drone_2": 97.72727272727273
+    },
+    "roc_auc": {
+        "3_long_blade_rotor": 0.9997263273125342,
+        "3_short_blade_rotor_1": 0.9977628635346756,
+        "3_short_blade_rotor_2": 0.9994966442953019,
+        "Bird": 1.0,
+        "Bird+mini-helicopter_1": 0.9989299090422686,
+        "Bird+mini-helicopter_2": 0.9996644295302014,
+        "RC plane_1": 1.0,
+        "RC plane_2": 1.0,
+        "drone_1": 1.0,
+        "drone_2": 1.0
+    },
+    "complexity": {
+        "flops": 2266456576,
+        "macs": 1133228288,
+        "params": 3624840,
+        "inference_time_ms": 13.725519180297852,
+        "flops_per_param": 625.2569978261109
+    }
+}

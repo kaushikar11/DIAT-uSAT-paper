@@ -1,0 +1,104 @@
+{
+    "model_name": "Wide ResNet-50",
+    "test_accuracy": 0.9739010989010989,
+    "inference_time_ms": 7.8752899169921875,
+    "model_size_mb": 255.03055572509766,
+    "parameters": 66854730,
+    "flops": 11453698048,
+    "macs": 66854730,
+    "roc_auc_score": 0.999456825357955,
+    "per_class_accuracy": {
+        "3_long_blade_rotor": 0.9915254237288136,
+        "3_short_blade_rotor_1": 0.971830985915493,
+        "3_short_blade_rotor_2": 0.9552238805970149,
+        "Bird": 1.0,
+        "Bird+mini-helicopter_1": 0.8947368421052632,
+        "Bird+mini-helicopter_2": 0.92,
+        "RC plane_1": 1.0,
+        "RC plane_2": 1.0,
+        "drone_1": 0.9523809523809523,
+        "drone_2": 1.0
+    },
+    "classification_report": {
+        "3_long_blade_rotor": {
+            "precision": 0.975,
+            "recall": 0.9915254237288136,
+            "f1-score": 0.9831932773109243,
+            "support": 118
+        },
+        "3_short_blade_rotor_1": {
+            "precision": 0.9583333333333334,
+            "recall": 0.971830985915493,
+            "f1-score": 0.965034965034965,
+            "support": 71
+        },
+        "3_short_blade_rotor_2": {
+            "precision": 0.9846153846153847,
+            "recall": 0.9552238805970149,
+            "f1-score": 0.9696969696969696,
+            "support": 67
+        },
+        "Bird": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 107
+        },
+        "Bird+mini-helicopter_1": {
+            "precision": 0.9272727272727272,
+            "recall": 0.8947368421052632,
+            "f1-score": 0.9107142857142856,
+            "support": 57
+        },
+        "Bird+mini-helicopter_2": {
+            "precision": 0.9387755102040817,
+            "recall": 0.92,
+            "f1-score": 0.9292929292929293,
+            "support": 50
+        },
+        "RC plane_1": {
+            "precision": 0.9655172413793104,
+            "recall": 1.0,
+            "f1-score": 0.9824561403508771,
+            "support": 56
+        },
+        "RC plane_2": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 66
+        },
+        "drone_1": {
+            "precision": 1.0,
+            "recall": 0.9523809523809523,
+            "f1-score": 0.975609756097561,
+            "support": 63
+        },
+        "drone_2": {
+            "precision": 0.9605263157894737,
+            "recall": 1.0,
+            "f1-score": 0.9798657718120806,
+            "support": 73
+        },
+        "accuracy": 0.9739010989010989,
+        "macro avg": {
+            "precision": 0.9710040512594313,
+            "recall": 0.9685698084727538,
+            "f1-score": 0.9695864095310593,
+            "support": 728
+        },
+        "weighted avg": {
+            "precision": 0.973958248585879,
+            "recall": 0.9739010989010989,
+            "f1-score": 0.973750696148773,
+            "support": 728
+        }
+    },
+    "characteristics": [
+        "Modification of ResNet with increased width (channel count) and reduced depth",
+        "Wider networks often achieve better performance than deeper ones",
+        "More efficient to train than very deep networks",
+        "Better feature extraction capability with wider channels",
+        "Strong classification performance with reasonable computational cost"
+    ]
+}
